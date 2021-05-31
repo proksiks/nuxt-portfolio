@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'app',
     htmlAttrs: {
-      lang: 'ru'
+      lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },

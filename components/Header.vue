@@ -17,7 +17,7 @@
         </div>
         <ul class="header__list">
           <li><nuxt-link to="/">Home</nuxt-link></li>
-          <li><nuxt-link to="/about">about</nuxt-link></li>
+          <li><nuxt-link to="./about">about</nuxt-link></li>
           <li><nuxt-link to="#">Services</nuxt-link></li>
           <li><nuxt-link to="#">portfolio</nuxt-link></li>
           <li><nuxt-link to="#">blog</nuxt-link></li>
