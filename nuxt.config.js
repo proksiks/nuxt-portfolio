@@ -43,7 +43,13 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    // https://www.npmjs.com/package/@nuxtjs/svg-sprite
+    '@nuxtjs/svg-sprite',
   ],
+
+  svgSprite: {
+    input: '~/nuxt-portfolio/assets/icons/'
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},

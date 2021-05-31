@@ -6,15 +6,15 @@
           <img src="~/assets/images/header/logo.png" alt="" />
         </nuxt-link>
       </div>
-      <nav class="header__nav">
-        <div class="header__burger burger">
-          <div class="burger__lines">
-            <span></span>
-          </div>
-          <div class="burger__text">
-            <span>Menu</span>
-          </div>
+      <div class="header__burger burger">
+        <div class="burger__lines">
+          <span></span>
         </div>
+        <div class="burger__text">
+          <span>Menu</span>
+        </div>
+      </div>
+      <nav class="header__nav">
         <ul class="header__list">
           <li><nuxt-link to="/">Home</nuxt-link></li>
           <li><nuxt-link to="/about">about</nuxt-link></li>
@@ -24,7 +24,10 @@
           <li><nuxt-link to="#">contact</nuxt-link></li>
           <li>
             <div class="header__search search">
-              <img src="~/assets/icons/search.svg" alt="" />
+              <div class="search-box">
+                <input type="text" />
+                <span></span>
+              </div>
             </div>
           </li>
         </ul>
@@ -34,8 +37,12 @@
 </template>
 
 <script>
+import Icon from "~/components/Icon";
 export default {
   layout: "header",
+  components: {
+    Icon,
+  },
 };
 </script>
 
