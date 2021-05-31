@@ -3,7 +3,7 @@
     <div class="header__wrapper">
       <div class="header__logo">
         <a href="/">
-          <img src="~assets/images/header/logo.png" alt="" />
+          <img src="~/assets/images/header/logo.png" alt="" />
         </a>
       </div>
       <nav class="header__nav">
@@ -24,7 +24,7 @@
           <li><nuxt-link to="#">contact</nuxt-link></li>
           <li>
             <div class="header__search search">
-              <img src="~assets/icons/search.svg" alt="" />
+              <img src="~/assets/icons/search.svg" alt="" />
             </div>
           </li>
         </ul>
