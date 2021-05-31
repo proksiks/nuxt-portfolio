@@ -2,9 +2,9 @@
   <header class="header">
     <div class="header__wrapper">
       <div class="header__logo">
-        <a href="/">
+        <nuxt-link to="/">
           <img src="~/assets/images/header/logo.png" alt="" />
-        </a>
+        </nuxt-link>
       </div>
       <nav class="header__nav">
         <div class="header__burger burger">
@@ -12,12 +12,12 @@
             <span></span>
           </div>
           <div class="burger__text">
-            <a href="/">Menu</a>
+            <span>Menu</span>
           </div>
         </div>
         <ul class="header__list">
           <li><nuxt-link to="/">Home</nuxt-link></li>
-          <li><nuxt-link to="./about">about</nuxt-link></li>
+          <li><nuxt-link to="/about">about</nuxt-link></li>
           <li><nuxt-link to="#">Services</nuxt-link></li>
           <li><nuxt-link to="#">portfolio</nuxt-link></li>
           <li><nuxt-link to="#">blog</nuxt-link></li>
