@@ -1,11 +1,19 @@
 <template>
   <div class="wrapper">
-    <LeftSidebar/>
-    <Nuxt />
-    <Footer/>
+    <MainNavigation />
   </div>
 </template>
 
-<style>
+<script>
+import MainNavigation from "~/components/MainNavigation";
 
+export default {
+  name: "default",
+  components: {
+    MainNavigation,
+  },
+};
+</script>
+
+<style>
 </style>

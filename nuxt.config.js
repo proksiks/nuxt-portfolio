@@ -48,7 +48,7 @@ export default {
   ],
 
   svgSprite: {
-    input: '~/nuxt-portfolio/assets/icons/'
+    input: '~/assets/icons/'
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

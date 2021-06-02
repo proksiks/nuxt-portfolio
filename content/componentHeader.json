@@ -1,0 +1,56 @@
+{
+  "fields": {
+    "links":[
+      {
+        "name": "home",
+        "link": "/"
+      },
+      {
+        "name": "about",
+        "link": "/about"
+      },
+      {
+        "name": "services",
+        "link": "#"
+      },
+      {
+        "name": "portfolio",
+        "link": "#"
+      },
+      {
+        "name": "blog",
+        "link": "#"
+      },
+      {
+        "name": "contact",
+        "link": "#"
+      }
+    ],
+    "socials":[
+      {
+        "name": "icon-phone",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "name": "i-social-fb",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "name": "i-social-tw",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "name": "i-social-inst",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "name": "i-social-pinterest",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "name": "icon-email",
+        "link": "https://www.facebook.com/"
+      }
+    ]
+  }
+}

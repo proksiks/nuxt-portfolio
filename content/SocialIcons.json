@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "socials":[
+      {
+        "name": "i-social-fb",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "name": "i-social-tw",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "name": "i-social-inst",
+        "link": "https://www.facebook.com/"
+      },
+      {
+        "name": "i-social-pinterest",
+        "link": "https://www.facebook.com/"
+      }
+    ]
+  }
+}

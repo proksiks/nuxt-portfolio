@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  layot: "footer",
+  name: "Footer",
 };
 </script>
 

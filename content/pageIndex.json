@@ -1,0 +1,18 @@
+{
+  "fields": {
+    "slides":[
+      {
+        "url": "slide-1.jpg"
+      },
+      {
+        "url": "slide-2.jpg"
+      },
+      {
+        "url": "slide-3.jpg"
+      },
+      {
+        "url": "slide-1.jpg"
+      }
+    ]
+  }
+}

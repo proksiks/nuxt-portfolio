@@ -1,0 +1,39 @@
+.socials {
+  .socials-icon {
+    border: 1px solid $color-white;
+    margin: 5px 0;
+    transition: all 0.3s ease-out;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px;
+    }
+    .icon {
+      fill: $color-white;
+      transition: fill 0.3s ease-out;
+    }
+    &:hover {
+      .icon {
+        fill: $color-main;
+      }
+      border: 1px solid $color-main;
+    }
+  }
+  .i-social-fb {
+    width: 13px;
+    height: 13px;
+  }
+  .i-social-tw {
+    width: 13px;
+    height: 13px;
+  }
+  .i-social-inst {
+    width: 13px;
+    height: 13px;
+  }
+  .i-social-pinterest {
+    width: 13px;
+    height: 13px;
+  }
+}
