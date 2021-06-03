@@ -1,13 +1,16 @@
 <template>
-  <div class="container">
-  </div>
+  <IndexPage />
 </template>
 
 <script>
+import IndexPage from "~/components/pages/IndexPage";
+
 export default {
-}
+  components: {
+    IndexPage,
+  },
+};
 </script>
 
 <style>
-
 </style>

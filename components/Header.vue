@@ -32,10 +32,13 @@
             <nuxt-link :to="link.link">{{ link.name }}</nuxt-link>
           </li>
           <li>
-            <div class="header__search search">
-              <div class="search-box">
-                <input type="text" />
-                <span></span>
+            <div class="header__search">
+              <div class="flexbox">
+                <div class="search">
+                  <div>
+                    <input type="text" placeholder="Search..." required />
+                  </div>
+                </div>
               </div>
             </div>
           </li>
@@ -106,7 +109,7 @@ export default {
       height: 13px;
       fill: #7a7c83;
       transition: fill 0.3s ease-out;
-      &-phone{
+      &-phone {
         padding: 0;
       }
     }

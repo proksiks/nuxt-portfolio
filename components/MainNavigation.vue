@@ -3,7 +3,7 @@
     <Header />
     <LeftSidebar />
     <RightSidebar />
-    <IndexPage />
+    <Nuxt />
   </div>
 </template>
 
@@ -11,14 +11,12 @@
 import Header from "~/components/Header";
 import LeftSidebar from "~/components/LeftSidebar";
 import RightSidebar from "~/components/RightSidebar";
-import IndexPage from "~/components/pages/IndexPage";
 export default {
   name: "LeftNavigation",
   components: {
     Header,
     LeftSidebar,
     RightSidebar,
-    IndexPage,
   },
 };
 </script>

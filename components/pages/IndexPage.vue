@@ -33,14 +33,6 @@ export default {
             return '<span class="' + className + '"></span>';
           },
         },
-        breakpoints: {
-          1440: {
-            spaceBetween: -65,
-          },
-          0: {
-            spaceBetween: -25,
-          },
-        },
       },
     };
   },
