@@ -82,68 +82,7 @@ export default {
   },
 };
 </script>
-<style lang="scss" >
-.swiper-container {
-  overflow: visible;
-}
-.swiper-counter {
-  position: absolute;
-  right: 60px;
-  bottom: -46px;
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 1;
-  color: #fff;
-  @media (max-width: 1300px) {
-    display: none;
-  }
-}
-.swiper-pagination-bullet {
-  position: relative;
-  opacity: 1;
-  width: 35px;
-  height: 20px;
-  background: transparent;
-  transition: all 0.8s ease;
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    opacity: 1;
-    width: 100%;
-    height: 1px;
-    background: #444549;
-    transition: all 0.8s ease;
-  }
-  @media (max-width: 400px) {
-    display: none;
-  }
-}
-.swiper-pagination-bullet-active {
-  &::before {
-    background: #cc9b55;
-  }
-}
-.swiper-pagination-fraction,
-.swiper-pagination-custom,
-.swiper-container-horizontal > .swiper-pagination-bullets {
-  text-align: right;
-  left: auto;
-  top: auto;
-  right: 115px;
-  bottom: -55px;
-  width: auto;
-  @media (max-width: 1300px) {
-    right: 50px;
-  }
-  @media (max-width: 768px) {
-    right: 20px;
-  }
-  @media (max-width: 400px) {
-    bottom: -30px;
-  }
-}
+<style lang="scss">
+
 </style>
 
