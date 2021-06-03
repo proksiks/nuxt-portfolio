@@ -30,6 +30,7 @@
       justify-content: flex-start;
     }
   }
+  // .right-sidebar__copiryght
   &__copiryght {
     color: $color-white;
     letter-spacing: 5px;
@@ -41,22 +42,13 @@
     font-weight: 600;
     transform: translateX(50%) rotate(-90deg);
     @media (max-width: 900px) {
-      position: static;
-      right: auto;
-      bottom: auto;
-      min-width: auto;
-      transform: none;
-      margin: 10px;
+      bottom: 200px;
     }
     @media (max-height: 720px) {
-      position: static;
-      right: auto;
-      bottom: auto;
-      left: auto;
-      top: auto;
-      min-width: auto;
-      transform: none;
-      margin: 10px;
+      bottom: 200px;
+    }
+    @media (max-height: 480px) {
+      display: none;
     }
     &::before {
       content: "";
