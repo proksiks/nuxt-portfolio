@@ -96,7 +96,7 @@ export default {
     transition: all 0.3s ease;
     margin: 30px 10px;
     @media (max-width: 400px) {
-      margin: 30px;
+      margin: 15px;
     }
     a {
       display: flex;

@@ -4,6 +4,7 @@
   top: 0;
   width: 100px;
   height: 100%;
+  z-index: 9998;
   background-color: $color-main;
   @media (max-width: 900px) {
     width: 50px;
@@ -21,7 +22,11 @@
     justify-content: center;
     flex-direction: column;
     @media (max-width: 900px) {
-      margin-top: 70px;
+      margin-top: 59px;
+      justify-content: flex-start;
+    }
+    @media (max-height: 720px) {
+      margin-top: 59px;
       justify-content: flex-start;
     }
   }
@@ -31,17 +36,22 @@
   &__number {
     position: absolute;
     left: -33%;
-    top: 268px;
+    top: 257px;
     min-width: 150px;
     text-transform: uppercase;
     font-weight: 600;
     transform: rotate(-90deg) translateY(50%);
-    &:hover {
-      .number {
-        color: $color-orange;
-      }
-    }
     @media (max-width: 900px) {
+      position: static;
+      right: auto;
+      bottom: auto;
+      left: auto;
+      top: auto;
+      min-width: auto;
+      transform: none;
+      margin: 10px;
+    }
+    @media (max-height: 720px) {
       position: static;
       right: auto;
       bottom: auto;
@@ -59,11 +69,17 @@
       align-items: center;
       letter-spacing: 4px;
       transition: color 0.3s ease;
+      &:hover {
+        color: $color-orange;
+      }
     }
     .left-sidebar__decorate {
       margin-left: 10px;
       background-color: $color-orange;
       @media (max-width: 900px) {
+        margin-left: 0;
+      }
+      @media (max-height: 720px) {
         margin-left: 0;
       }
     }
@@ -105,15 +121,20 @@
     text-transform: uppercase;
     font-weight: 600;
     transform: translateY(50%) rotate(-90deg);
-    &:hover {
-      .mail {
-        color: $color-orange;
-      }
-    }
     @media (max-width: 900px) {
       position: static;
       right: auto;
       bottom: auto;
+      min-width: auto;
+      transform: none;
+      margin: 10px;
+    }
+    @media (max-height: 720px) {
+      position: static;
+      right: auto;
+      bottom: auto;
+      left: auto;
+      top: auto;
       min-width: auto;
       transform: none;
       margin: 10px;
@@ -126,10 +147,16 @@
       align-items: center;
       letter-spacing: 4px;
       transition: color 0.3s ease;
+      &:hover {
+        color: $color-orange;
+      }
     }
     .left-sidebar__decorate {
       margin-right: 10px;
       @media (max-width: 900px) {
+        margin-right: 0;
+      }
+      @media (max-height: 720px) {
         margin-right: 0;
       }
     }
@@ -172,6 +199,11 @@
       height: 30px;
       border-radius: 6px;
     }
+    @media (max-height: 720px) {
+      width: 30px;
+      height: 30px;
+      border-radius: 6px;
+    }
   }
 }
 
@@ -185,12 +217,21 @@
     height: 30px;
     padding: 5px;
   }
+  @media (max-height: 720px) {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+  }
 }
 .icon-email {
   width: 13px;
   height: 13px;
   fill: $color-orange;
   @media (max-width: 900px) {
+    width: 30px;
+    height: 30px;
+  }
+  @media (max-height: 720px) {
     width: 30px;
     height: 30px;
   }

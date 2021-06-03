@@ -4,6 +4,7 @@
   top: 0;
   width: 100px;
   height: 100%;
+  z-index: 9998;
   background-color: $color-orange;
   @media (max-width: 970px) {
     width: 50px;
@@ -21,6 +22,10 @@
     flex-direction: column;
     margin-top: 50px;
     @media (max-width: 970px) {
+      margin-top: 70px;
+      justify-content: flex-start;
+    }
+    @media (max-height: 720px) {
       margin-top: 70px;
       justify-content: flex-start;
     }
