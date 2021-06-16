@@ -1,0 +1,112 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 100px;
+  top: 0;
+  width: 420px;
+  height: 100vh;
+  background-color: $color-black;
+  background-image: url(~/assets/images/breadcrumbs/breadcrumbs-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  @media (max-width: 1280px) {
+    width: 220px;
+  }
+  @media (max-width: 1023px) {
+    display: none;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  // .breadcrumbs__decorate
+
+  &__decorate {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 15px;
+      height: 15px;
+      background-color: $color-orange;
+    }
+    &::before {
+      top: 99px;
+    }
+    &::after {
+      bottom: 0;
+    }
+  }
+  // .breadcrumbs__wrap
+
+  &__wrap {
+    transform: rotate(-90deg);
+  }
+
+  // .breadcrumbs__links
+
+  &__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  // .breadcrumbs__link
+
+  &__link {
+    // .breadcrumbs__link_home
+    color: $color-orange;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: $ffb;
+    letter-spacing: 8px;
+    margin: 0 17px;
+    &_home {
+    }
+
+    // .breadcrumbs__link_subtitle
+
+    &_subtitle {
+    }
+  }
+
+  // .breadcrumbs__title
+
+  &__title {
+    font-size: 60px;
+    color: $color-text;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+  }
+  // .breadcrumbs__prompt
+
+  &__prompt {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 16px;
+    color: $color-white;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    padding: 26px 50px;
+    background-color: $color-orange;
+    @media (max-width: 1280px) {
+      display: none;
+    }
+  }
+}

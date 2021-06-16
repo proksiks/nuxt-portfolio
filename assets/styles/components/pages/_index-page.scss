@@ -20,7 +20,7 @@
     font-size: 12px;
     font-weight: 600;
     line-height: 1;
-    color: #fff;
+    color: $color-white;
     @media (max-width: 1300px) {
       display: none;
     }
@@ -72,7 +72,6 @@
       bottom: -30px;
     }
   }
-
 }
 .main-footer {
   padding: 34px 0;
@@ -81,7 +80,7 @@
     padding: 10px 0;
   }
   &__wrap {
-    color: #fff;
+    color: $color-white;
     letter-spacing: 6px;
     padding: 0 90px;
     text-transform: uppercase;

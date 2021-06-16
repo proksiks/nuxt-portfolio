@@ -59,6 +59,7 @@ a {
 }
 
 body {
+  color: $color-main;
   font-family: $ffr;
   font-size: 12px;
   line-height: 1.5;
@@ -72,4 +73,38 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+.container {
+  margin: 0 100px 0 520px;
+  padding: 120px 20px 0;
+  @media (max-width: 1280px) {
+    margin: 0 100px 0 320px;
+  }
+  @media (max-width: 900px) {
+    padding: 80px 20px 0;
+    margin: 0 50px;
+  }
+  @media (max-width: 768px) {
+    margin: 0;
+  }
+}
+
+.title {
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 150%;
+  color: #7e7f82;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  color: $color-orange;
 }
