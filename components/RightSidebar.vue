@@ -19,7 +19,7 @@
 
 <script>
 import Icon from "~/components/Icon";
-import { fields } from "~/content/SocialIcons";
+import { fields } from "~/content/componentRightSidebarSocialIcons";
 export default {
   name: "rightSidebar",
   data() {

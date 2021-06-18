@@ -1,22 +1,82 @@
 {
   "fields": {
-    "team": {
-      "socials": [
+    "top": {
+      "image": "top-img.jpg",
+      "imageDescr": "Lodiz is trusted by more than 8,700 customers",
+      "subtitle": "About Our Company",
+      "title": "It just might inspire you to help us build a better future",
+      "descr": "Lorem ipsum dolor sit amet nsectetur cing elit. Suspe ndisse suscipit sagittis leo sit met entum is not estibulum dignissim posuere cubilia durae. Leo sit met entum cubilia crae. but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages and more recently."
+    },
+    "aboutTeams":{
+      "teams": [
         {
-          "name": "i-social-fb",
-          "link": "https://www.facebook.com/"
+          "name": "Kevin Hardson",
+          "position": "ceo / DESIGNER",
+          "photo": "#",
+          "socials": [
+            {
+              "name": "i-social-fb",
+              "link": "https://www.facebook.com/"
+            },
+            {
+              "name": "i-social-tw",
+              "link": "https://www.facebook.com/"
+            },
+            {
+              "name": "i-social-inst",
+              "link": "https://www.facebook.com/"
+            },
+            {
+              "name": "i-social-pinterest",
+              "link": "https://www.facebook.com/"
+            }
+          ]
         },
         {
-          "name": "i-social-tw",
-          "link": "https://www.facebook.com/"
+          "name": "Jessica Brown",
+          "position": "DESIGNER",
+          "photo": "#",
+          "socials": [
+            {
+              "name": "i-social-fb",
+              "link": "https://www.facebook.com/"
+            },
+            {
+              "name": "i-social-tw",
+              "link": "https://www.facebook.com/"
+            },
+            {
+              "name": "i-social-inst",
+              "link": "https://www.facebook.com/"
+            },
+            {
+              "name": "i-social-pinterest",
+              "link": "https://www.facebook.com/"
+            }
+          ]
         },
         {
-          "name": "i-social-inst",
-          "link": "https://www.facebook.com/"
-        },
-        {
-          "name": "i-social-pinterest",
-          "link": "https://www.facebook.com/"
+          "name": "Paul Walker",
+          "position": "ARCHITECt",
+          "photo": "#",
+          "socials": [
+            {
+              "name": "i-social-fb",
+              "link": "https://www.facebook.com/"
+            },
+            {
+              "name": "i-social-tw",
+              "link": "https://www.facebook.com/"
+            },
+            {
+              "name": "i-social-inst",
+              "link": "https://www.facebook.com/"
+            },
+            {
+              "name": "i-social-pinterest",
+              "link": "https://www.facebook.com/"
+            }
+          ]
         }
       ]
     }

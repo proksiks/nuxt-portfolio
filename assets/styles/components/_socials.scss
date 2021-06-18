@@ -10,30 +10,74 @@
       padding: 12px;
     }
     .icon {
+      width: 13px;
+      height: 13px;
       fill: $color-white;
       transition: fill 0.3s ease-out;
     }
     &:hover {
+      background-color: $color-white;
+      border: 1px solid $color-orange;
       .icon {
-        fill: $color-main;
+        fill: $color-orange;
       }
-      border: 1px solid $color-main;
     }
   }
-  .i-social-fb {
-    width: 13px;
-    height: 13px;
+
+  .social {
+    &.orange {
+      width: 40px;
+      height: 40px;
+      background-color: #fff;
+      border: 1px solid $color-orange;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: fill 0.3s ease-out, border 0.3s ease-out,
+        background-color 0.3s ease-out;
+      &:not(:last-child) {
+        margin-right: 5px;
+      }
+      &:hover {
+        background-color: $color-orange;
+        border: 1px solid #fff;
+        svg {
+          fill: $color-white;
+        }
+      }
+      svg {
+        width: 13px;
+        height: 13px;
+        transition: fill 0.3s ease-out;
+        fill: $color-orange;
+      }
+    }
   }
-  .i-social-tw {
-    width: 13px;
-    height: 13px;
-  }
-  .i-social-inst {
-    width: 13px;
-    height: 13px;
-  }
-  .i-social-pinterest {
-    width: 13px;
-    height: 13px;
+
+  .social {
+    &.white {
+      width: 40px;
+      height: 40px;
+      background-color: transparent;
+      border: 1px solid $color-white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: fill 0.3s ease-out, border 0.3s ease-out,
+        background-color 0.3s ease-out;
+      &:not(:last-child) {
+        margin-right: 5px;
+      }
+      &:hover {
+        background-color: $color-white;
+        border: 1px solid #fff;
+        fill: #fff;
+      }
+      svg {
+        width: 13px;
+        height: 13px;
+        fill: $color-orange;
+      }
+    }
   }
 }

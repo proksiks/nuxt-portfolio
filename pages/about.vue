@@ -1,8 +1,8 @@
 <template>
   <section class="container">
     <Breadcrumbs href="/about" title="About" />
-    <About />
-    <Footer/>
+    <About :fields="fields" />
+    <Footer />
   </section>
 </template>
 
@@ -26,9 +26,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-h3 {
-  text-align: center;
-}
-</style>
