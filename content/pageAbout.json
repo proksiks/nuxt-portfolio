@@ -7,12 +7,14 @@
       "title": "It just might inspire you to help us build a better future",
       "descr": "Lorem ipsum dolor sit amet nsectetur cing elit. Suspe ndisse suscipit sagittis leo sit met entum is not estibulum dignissim posuere cubilia durae. Leo sit met entum cubilia crae. but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages and more recently."
     },
-    "aboutTeams":{
+    "aboutTeams": {
+      "subtitle": "our experts",
+      "title": "Meet the team",
       "teams": [
         {
           "name": "Kevin Hardson",
-          "position": "ceo / DESIGNER",
-          "photo": "#",
+          "position": "CEO / DESIGNER",
+          "photo": "team-1.jpg",
           "socials": [
             {
               "name": "i-social-fb",
@@ -35,7 +37,7 @@
         {
           "name": "Jessica Brown",
           "position": "DESIGNER",
-          "photo": "#",
+          "photo": "team-2.jpg",
           "socials": [
             {
               "name": "i-social-fb",
@@ -57,8 +59,8 @@
         },
         {
           "name": "Paul Walker",
-          "position": "ARCHITECt",
-          "photo": "#",
+          "position": "ARCHITECT",
+          "photo": "team-3.jpg",
           "socials": [
             {
               "name": "i-social-fb",
@@ -79,6 +81,24 @@
           ]
         }
       ]
-    }
+    },
+    "aboutStats": [
+      {
+        "number": "990",
+        "text": "happy customers"
+      },
+      {
+        "number": "16",
+        "text": "awards won"
+      },
+      {
+        "number": "30",
+        "text": "years experience"
+      },
+      {
+        "number": "247",
+        "text": "projects completed"
+      }
+    ]
   }
 }
