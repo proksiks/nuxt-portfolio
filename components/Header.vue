@@ -104,6 +104,7 @@ export default {
       justify-content: center;
       padding: 12px;
     }
+
     .icon {
       width: 13px;
       height: 13px;
